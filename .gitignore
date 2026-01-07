@@ -1,0 +1,140 @@
+## Промежуточные файлы сборки
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Builds/
+
+## Сгенерированные проектные файлы
+*.sdf
+*.opensdf
+*.suo
+*.xcodeproj/
+*.xcworkspace/
+
+## Кэш-файлы
+/.vs/
+/.vscode/
+.vsconfig
+
+# Файлы проекта UE
+## Сгенерированный код C++ (если используется Blueprint только)
+Source/*/Binaries/
+Source/*/Intermediate/
+
+## Файлы конфигурации
+*.user
+*.userprefs
+
+## Пакеты и дистрибутивы
+*.pak
+*.distribution
+*.target
+
+# Файлы операционной системы
+## macOS
+.DS_Store
+*.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+__MACOSX/
+
+## Windows
+desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+## Linux
+*~
+
+# Ассеты и контент
+## Временные файлы редактора
+Content/**/Backup/
+Content/**/Autosave/
+Content/**/Thumbnails/
+
+## Файлы 3D-редакторов
+*.max
+*.mb
+*.ma
+*.blend
+*.blend1
+*.c4d
+*.fbx~
+*.obj~
+
+## Файлы графических редакторов
+*.psd
+*.kra
+*.clip
+*.sai
+*.csp
+
+## Кэш импорта ассетов
+*.uasset.tmp
+*.umap.tmp
+
+# Blueprints
+## Временные файлы Blueprint
+*.bp_parsed
+*.bp_checked
+
+# Конфигурации и настройки
+## Конфигурации сборки
+[Pp]ackages/
+[Tt]emp/
+[Oo]bj/
+
+## Конфигурации IDE
+.idea/
+*.swp
+*.swo
+
+# Прочие файлы UE
+## Кэш освещения
+LightingBuildInfo.ini
+
+## Профили и логи
+Logs/
+Profiling/
+
+## Кэш материалов
+ShaderCache/
+
+## Кэш навигации
+NavMesh/
+
+## Кэш физики
+PhysXCache/
+
+## Версионный контроль (если используете другой)
+*.orig
+*.rej
+
+# Файлы плагинов
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Файлы среды выполнения
+*.log
+*.backup
+*.tmp
+*.temp
+
+# Исключения (что нужно коммитить)
+!.gitkeep
+!.gitignore
+
+# Пользовательские исключения (добавьте свои ниже)
+# Content/ - основные ассеты коммитим
+# Source/ - исходный код коммитим
+# Config/ - конфигурации коммитим
+
+# Примечание:
+# Файлы .uasset и .umap КОММИТЬ НУЖНО!
+# Они содержат ваши Blueprints, материалы, текстуры, уровни и другие ассеты
